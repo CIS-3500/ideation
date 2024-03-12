@@ -1,46 +1,47 @@
-# Chrome Extension Idea: EasyRead
+# Chrome Extension Idea: TempEmail
 
 ## Authors
 
-John Doe, Jane Smith
+Adam Gorka
 
 ## Problem Statement
 
-Many websites have busy backgrounds or low-contrast color schemes that make it difficult for users to read the content comfortably. This can be particularly challenging for users with visual impairments or reading difficulties. Currently, users have to manually adjust the styling of each website they visit, which is time-consuming and inconvenient.
+A pretty common problem is encountering websites that are soft-locked by a login page that requires you to make an account. This is problematic as
+noone wants their personal email to be spammed, but they still want access to the service. My extension will automatically generate an email account to be used
+for the temporary account, and it can be used to confirm the account. 
 
 ## Target Audience
 
-The target audience for EasyRead includes:
-
-- Users with visual impairments or reading difficulties
-- Users who frequently encounter websites with poor readability
-- Users who prefer a cleaner, distraction-free reading experience
-- Students and professionals who spend a lot of time reading online content
+The target audience is users that want to create quick temporary accounts for one-time uses.
 
 ## Description
 
-EasyRead is a Chrome Extension that allows users to remove background images and change the background color of web pages for improved legibility. With a single click, users can strip away distracting backgrounds and apply a customizable, eye-friendly color scheme to enhance the readability of online content.
+When a user is creating an account for an online service, they can generate a temporary email address and password for their account. The extension
+will verify the account, enabling the user to have a temporary account instantly. 
 
 ## Selling Points
 
-1. Instantly removes distracting background images and enhances readability
-2. Customizable background color settings to suit individual preferences
-3. Persistent settings across browsing sessions and websites
-4. Easy to use with a simple, intuitive interface
-5. Improves accessibility for users with visual impairments or reading difficulties
+1. It is quick and easy to use
+2. Users no longer need to share their personal email information
+3. Can autofill and sign in for you
+4. Bypass soft-locked websites
+5. Automatically confirms email-sign up account creation
 
 ## User Stories
 
-1. As a user with a visual impairment, I want to remove background images so that I can focus on the text content without distractions.
-2. As a student, I want to change the background color of web pages to a more eye-friendly scheme so that I can read online course materials comfortably for extended periods.
-3. As a user who frequently encounters websites with poor readability, I want to apply my preferred background color persistently across browsing sessions so that I don't have to adjust the settings every time I visit a new page.
-4. As a professional who spends a lot of time reading online articles, I want to customize the background color to my liking so that I can create a more comfortable and personalized reading experience.
-5. As a user with dyslexia, I want to apply a high-contrast background color so that I can distinguish letters more easily and read the content with less difficulty.
+As a student, I want to be able to create quick temporary accounts to let me use services online that require me to share my personal email. 
+As a privacy-conscious chrome user, I want to create temporary accounts without sharing my personal info with websites.
+As a spam-conscious chrome user, I want to create temporary accounts that won't leave my email full of spam.
+As a student, I don't have much time and don't want to comfirm email addresses for my accounts.
+As a student, I want to sign up for a service by only clicking one button. 
 
 ## Notes
 
-Needs to be simple and seamless to work. Could also include a feature to adjust font size and type.
+Challenges:
+ - Figuring out email service, how to provide temp emails
+
+Could instead shift to just being a service to automatically confirm email accounts - attached to gmail.
 
 ## References & Inspiration
 
-https://www.nngroup.com/articles/low-contrast/
+Inspired by temporary email websites that have a similar function and purpose.
