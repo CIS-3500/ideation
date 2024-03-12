@@ -2,7 +2,7 @@
 
 ## Authors
 
-[Your Name(s) Here]
+John Otto, Franci Branda-Chen
 
 ## Problem Statement
 
@@ -38,5 +38,4 @@ This Chrome Extension transcends the limitations of Gmail's existing filtering f
 - **As an event organizer**, the ability to send mass emails with personalized content based on the recipient's preferences or previous interactions would enhance the effectiveness of my communication. Tracking these emails' open rates and engagement levels would also provide insights into the success of my marketing strategies.
 
 ## Notes
-
 While developing this Chrome Extension, it's imperative to navigate the intricacies of integrating with Gmail's existing framework without compromising system performance. Paramount importance must be placed on ensuring the confidentiality and integrity of user data, necessitating adherence to stringent security protocols. Furthermore, the user interface must be intuitively designed, simplifying the process of managing complex filter rules, thus democratizing advanced email management for a wide audience. This endeavor, while challenging, represents a significant leap forward in the realm of digital communication management.
