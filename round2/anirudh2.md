@@ -2,7 +2,7 @@
 
 ## Authors
 
-Anirudh Bharadwaj, Eric 
+Anirudh Bharadwaj, Eric Zhou
 
 ## Problem Statement
 
