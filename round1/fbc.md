@@ -2,36 +2,38 @@
 
 ## Authors
 
-[Include your names here]
+Franci Branda-Chen
 
 ## Problem Statement
 
-[Describe the problem that your Chrome Extension will solve. What are the pain points that users experience? How does your extension address these pain points?]
+Instagram follower assistant. Some people care about their follower/follows ratio, so my extension aims to go through each of the user's followers and unfollow if they do not follow the user.
 
 ## Target Audience
 
-[Identify the target audience for your Chrome Extension. Who will benefit from using your extension? What are the main characteristics of your target audience?]
+The target audience for IgCleaner includes:
+
+- Teenagers and adults who use instagram frequently
+- Users who want to have a well proportioned Instagram profile
+- Users who want their instagram account to look celebrity-like
 
 ## Description
 
-[Provide a general description of your Chrome Extension idea in 2-3 sentences. Explain the main purpose and functionality of the extension.]
+Some people care about their follower/follows ratio, so my extension aims to go through each of the user's followers and unfollow if they do not follow the user (unless they are a celebrity or similar). Additionally, it should store the people that it has unfollowed so that the user can do whatever they
+want with that information. Additional feature to send massive amounts of follow requests, then unfollow the people who followed the user back to further increase positively the ratio for greater users
 
 ## Selling Points
 
-1. [Selling Point 1]
-2. [Selling Point 2]
-3. [Selling Point 3]
-4. [Selling Point 4]
-5. [Selling Point 5]
+1. Increase the number of followers by an amount that the user chooses
+2. Delete the people who do not follow you back
+3. Lock specific people who do not follow you so that they are not deleted
+4. Celebrities and content creators are not unfollowed
+5. Simple user interface. Perform actions with the click of a button 
 
 ## User Stories
 
-_[List user stories that describe the main features of your Chrome Extension. Use the following template: "As a [user role], I want to [goal] so that [benefit]." Fill in the brackets with the appropriate information. For Round 1, write 5 user stories; Round 2, write 10 user stories; Round 3, write 15 user stories.]_
-
-## Notes
-
-_[Add any additional notes or considerations for your Chrome Extension idea. This could include potential challenges, alternative approaches, or specific features you want to highlight.]_
-
-## References & Inspiration
-
-_[Include any references or sources that inspired your Chrome Extension idea. This could be articles, existing products, or other resources that informed your concept. Just paste any links you found during research.]_
+1. As a high school teenager, I want to remove people who do not follow me back so that I can 
+make other people think I am popular
+2. As a business owner, I want people to think that I have a lot of customers by increasing my followers amount
+3. As a marketer, I want to use the "Increase Follower" feature strategically to expand our brand's reach and visibility on Instagram, ultimately driving more traffic and conversions to our website or products.
+4. As a user concerned about privacy, I want assurance that my account will not be unfollowed without my consent or knowledge, ensuring that I maintain control over my follower list and interactions on Instagram.
+5. As a user, I want the extension to provide recommendations for accounts to follow based on my interests, engagement history, and the content I interact with on Instagram.
