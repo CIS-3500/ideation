@@ -2,7 +2,7 @@
 
 ## Authors
 
-Brady Zhou
+Brady Zhou\
 Ivan Zou
 
 ## Problem Statement
@@ -28,6 +28,11 @@ FastApply is a Chrome Extension that allows the user to submit their personalize
 3. As a user, I want to notify the extension of any questions that it has missed, so that in future applications, those questions will be answered.
 4. As a user, I want to be able to check if a job application has already been applied for, so that I don't waste time reapplying to a job.
 5. As a user, I want to be able to check if a job matches specific requirements I have set in place, so that I can quickly decide if I want to apply.
+6. As a user, I want to be able to generate a cover letter for the specific company based on my information, so that I can increase my chances of getting hired.
+7. As a user, I want to get automated feedback on my résumé, so that I can increase my chances of getting hired.
+8. As a user, I want to extract the core details of the job description such as location, pay, qualifications, etc, so that I can quickly assess whether this job is for me.
+9. As a user, I want to be able to keep my information across devices, so that I can apply to jobs on whichever device I have available to me.
+10. As a user, I want to be able to receive links/resources about company and required skills for a specific job, so that I can better prepare for the position.
 
 ## Notes
 Potential challenges include security, parsing the application and answering each question with the specified information, and efficiently storing information about jobs that have just been applied for.
