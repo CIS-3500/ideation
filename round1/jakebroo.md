@@ -1,4 +1,4 @@
-# Chrome Extension Idea: [Title]
+# Chrome Extension Idea: Style.it
 
 ## Authors
 
