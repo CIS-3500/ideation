@@ -2,15 +2,15 @@
 
 ## Authors
 
-[Include your names here]
+Rayyan Shaik
 
 ## Problem Statement
 
-[Describe the problem that your Chrome Extension will solve. What are the pain points that users experience? How does your extension address these pain points?]
+For those in large organizations (schools, companies, etc) it can be overwhelming trying to figure out who you know that may be a part of an email chain (whether as a sender, participant, or recipient). It may be confusing or perhaps one might not remember who a specific person is within an organization.
 
 ## Target Audience
 
-[Identify the target audience for your Chrome Extension. Who will benefit from using your extension? What are the main characteristics of your target audience?]
+College students and those working/a part of large organizations (companies)
 
 ## Description
 
