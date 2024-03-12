@@ -26,16 +26,16 @@ The chrome extension would have a sidebar menu with popular outfits people have 
 
 ## User Stories
 
-As a student, I want to find outfits that look good so that I can impress my classmates
-As a student on a budget, I want to find my clothes on multiple sites so that I can get the best price possible 
-As a classy trendsetter, I want to be notified when new clothes for me are coming up on my favorite sites so that I can get them quickly 
-As a guy who struggles with fashion, I want to see what popular trends there are in outfits so I can experiment more easily and in a structured fashion with my wardrobe
-As a busy student, I want to know when things are in my size on different sites so I don't waste my time checking out outfits I can't even buy
-As an indecisive shopper, I want clothing articles recommended directly to me so I don't have to worry about what would look good
-As a sustainable shopper, I want to find styles that aren't just coming from fast fashion brands
-As a busy student, I want to use a chrome extension so I don't have to click into a seperate website while I'm already shopping on a current website
-As a fashion enthusiast, I want to see the latest trends without having to search through instagram 
-As a holistic shopper, I want to see accessories for my outfits that help complete my looks
+1. As a student, I want to find outfits that look good so that I can impress my classmates
+2. As a student on a budget, I want to find my clothes on multiple sites so that I can get the best price possible
+3. As a classy trendsetter, I want to be notified when new clothes for me are coming up on my favorite sites so that I can get them quickly
+4. As a guy who struggles with fashion, I want to see what popular trends there are in outfits so I can experiment more easily and in a structured fashion with my wardrobe
+5. As a busy student, I want to know when things are in my size on different sites so I don't waste my time checking out outfits I can't even buy
+6. As an indecisive shopper, I want clothing articles recommended directly to me so I don't have to worry about what would look good
+7. As a sustainable shopper, I want to find styles that aren't just coming from fast fashion brands
+8. As a busy student, I want to use a chrome extension so I don't have to click into a seperate website while I'm already shopping on a current website
+9. As a fashion enthusiast, I want to see the latest trends without having to search through instagram
+10. As a holistic shopper, I want to see accessories for my outfits that help complete my looks
 
 ## Notes
 
