@@ -6,7 +6,7 @@ Emre Guler
 
 ## Problem Statement
 
-Many users feel overwhelmed by the vast amount of information available online and struggle to understand or relate complex concepts presented in articles. InsightBot aims to alleviate this issue by summarizing web content, enabling in-depth discussions, and connecting users to a broader range of resources for a more comprehensive understanding. This extension addresses pain points such as difficulty in comprehending intricate subjects, finding relevant additional information, and discovering diverse perspectives on a given topic.
+Many users feel overwhelmed by the vast amount of information available on the Internet and struggle to understand or relate complex concepts presented in articles presented as websites. InsightBot alleviates this issue by summarizing web content, enabling in-depth discussions, and (most importantly) connecting users to a broader range of resources for a more comprehensive understanding. This extension addresses pain points such as (i) difficulty in comprehending intricate subjects, (ii) finding relevant additional information, and (iii) discovering diverse perspectives on a given topic.
 
 ## Target Audience
 
@@ -14,7 +14,7 @@ InsightBot targets college students, researchers, and lifelong learners who freq
 
 ## Description
 
-InsightBot is a Chrome extension that enriches the browsing experience by providing AI-powered summaries and discussions of web content. It enables users to explore topics in depth through a chatbot interface, offering explanations, answering follow-up questions, and suggesting additional resources. This extension turns every article into a learning hub, seamlessly integrating with users' research or learning workflows.
+InsightBot is a Chrome extension that enriches the browsing experience by providing AI-powered summaries and discussions of web content. It enables users to explore topics in depth through a chatbot interface, offering explanations, answering follow-up questions, and suggesting additional resources in various forms. This extension turns every article into a learning hub and a starting point of extensive research, seamlessly integrating with users' research workflows.
 
 ## Selling Points
 
@@ -37,4 +37,4 @@ InsightBot is a Chrome extension that enriches the browsing experience by provid
 This extension faces challenges such as ensuring the accuracy of AI-generated content and maintaining user privacy. An alternative approach could involve community-driven annotations and discussions.
 
 ## References & Inspiration
-This concept draws inspiration from existing tools like Pocket, Grammarly, and chat-based AI interfaces. Further inspiration comes from educational platforms that encourage deep dives into subjects, such as Khan Academy and Coursera.
+This concept draws inspiration from existing tools like Pocket, Grammarly, and many chat-based AI interfaces powered by GenAI solutions. Further inspiration comes from wikilinks found in Wikipedia and other wiki-style bodies of knowledge, along with educational platforms like Khan Academy and Coursera.
