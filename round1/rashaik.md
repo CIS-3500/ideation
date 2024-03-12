@@ -19,7 +19,7 @@ This extension will allow users to login to and connect their LinkedIn accounts.
 ## Selling Points
 
 1. Quickly see who you might be related to / already acquainted with.
-2. 
+2. View further information on those who are connected to you
 3. [Selling Point 3]
 4. [Selling Point 4]
 5. [Selling Point 5]
