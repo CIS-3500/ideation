@@ -41,7 +41,3 @@ Currency Converter is a Chrome Extension that seamlessly integrates real-time cu
 ## Notes
 
 Needs to be simple and seamless to work. Could also include a feature to adjust font size and type.
-
-## References & Inspiration
-
-https://www.nngroup.com/articles/low-contrast/
