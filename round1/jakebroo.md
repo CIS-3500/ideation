@@ -2,36 +2,41 @@
 
 ## Authors
 
-[Include your names here]
+Jake Brooks
 
 ## Problem Statement
 
-[Describe the problem that your Chrome Extension will solve. What are the pain points that users experience? How does your extension address these pain points?]
+I never know how to dress, and even when I get a sense of what a good outfit would be, I never know where to find clothes that would match my style
 
 ## Target Audience
 
-[Identify the target audience for your Chrome Extension. Who will benefit from using your extension? What are the main characteristics of your target audience?]
+Students who are looking to find new styles and show up to class in something other than a hoodie and sweatpants. 
 
 ## Description
 
-[Provide a general description of your Chrome Extension idea in 2-3 sentences. Explain the main purpose and functionality of the extension.]
+The chrome extension would have a sidebar menu with popular outfits people have been making using different brands and brand mixes. It would also scrape popular brands for sales and for titles/items similar to the items that people are making their outfits with. (i.e. preppy men would likely recommend polo t's)
 
 ## Selling Points
 
-1. [Selling Point 1]
-2. [Selling Point 2]
-3. [Selling Point 3]
-4. [Selling Point 4]
-5. [Selling Point 5]
+1. It's hard to come up with outfits and this helps you generate outfit ideas
+2. It's hard to find clothes you like and this takes the hassle out of searching for places to shop
+3. Nobody wants to compare prices and open a trillion links so this could do that for you 
+4. Checking inventory on items in your size would also be a key feature
+5. Getting notifications for new styles you would be interested in would be sick (or go for a spotify daylist style "you are indie-mountain Wednesday morning style")
 
 ## User Stories
 
-_[List user stories that describe the main features of your Chrome Extension. Use the following template: "As a [user role], I want to [goal] so that [benefit]." Fill in the brackets with the appropriate information. For Round 1, write 5 user stories; Round 2, write 10 user stories; Round 3, write 15 user stories.]_
+As a student, I want to find outfits that look good so that I can impress my classmates
+As a student on a budget, I want to find my clothes on multiple sites so that I can get the best price possible 
+As a classy trendsetter, I want to be notified when new clothes for me are coming up on my favorite sites so that I can get them quickly 
+As a guy who struggles with fashion, I want to see what popular trends there are in outfits so I can experiment more easily and in a structured fashion with my wardrobe
+As a busy student, I want to know when things are in my size on different sites so I don't waste my time checking out outfits I can't even buy
 
 ## Notes
 
-_[Add any additional notes or considerations for your Chrome Extension idea. This could include potential challenges, alternative approaches, or specific features you want to highlight.]_
+It will be hard to scrape different websites since they all have custom inventory setups, so it'll be fun to play with that aspect. I'll probably use chromium and compile everything in a central server with a custom structure (if I'm allowed to run another server as a back-end to my project)
+
+I really like the idea of coming up with labels and mixed styles so it's easy to express exactly what you want to wear and compare to what your friends wear
 
 ## References & Inspiration
-
-_[Include any references or sources that inspired your Chrome Extension idea. This could be articles, existing products, or other resources that informed your concept. Just paste any links you found during research.]_
+https://www.instagram.com/dhruv.shahh/ has some crazy styles and I love seeing what he comes up with. Using his fashion as the basis for this idea
