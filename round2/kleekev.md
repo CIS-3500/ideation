@@ -34,7 +34,8 @@ This extension helps users stay focused by blocking distracting websites during 
 - As a college student, I want to decrease mental stress from social media feeds or news so I can have more focus on doing productive work.
 - As a college student, I want to spend less time on doing work with less focused so that I can have more time doing work in a more productive way.
 - As a high school student, I want to do well in school which means doing well studying and doing homework so I can secure my future by going to a great college.
-- Aa a user, I want to be notified of how well my productivity was compared to this week and last week to increase motiviation
+- Aa a user, I want to be notified of how well my productivity was compared to this week and last week to increase motiviation.
+- As a user, I want to schedule uninteruppted time to increase productivity during free time so that I can finish work without stress.
 
 ## Notes
 
