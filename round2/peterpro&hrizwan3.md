@@ -26,17 +26,17 @@ Anyone who is looking for a deal and doesn't need to make a purchase immediately
 
 ## User Stories
 
-As a user, I want to ensure that I am getting the most out of my money so I save my money.
-As a user, I want to ensure I can get the best deal possible so I can buy other things.
-As a user, I want to know about real time price changes so I know when it is the right time to buy.
-As a user, I want to see the previous price of what I am interested in to know if it is a good deal.
-As a user, I want to take receive alerts of price changes so that I can purchse items at a good price. 
+1. As a user, I want to ensure that I am getting the most out of my money so I save my money.
+2. As a user, I want to ensure I can get the best deal possible so I can buy other things.
+3. As a user, I want to know about real time price changes so I know when it is the right time to buy.
+4. As a user, I want to see the previous price of what I am interested in to know if it is a good deal.
+5. As a user, I want to take receive alerts of price changes so that I can purchse items at a good price. 
 
-As a budget-conscious shopper, I want to add wishlist products that I don't need to ensure I get them at my target price.
-As a frequent shopper, I want to ensure that I get good deals on everything I purchase.
-As a gift shopper, I don't want to spend money on the receivers, so I want to spend as little money as possible. 
-As a busy professional, I want to save money but not spend hours and hours refreshing a web page waiting for a discount.
-As a contractor, I don't want to save as much money for my clients as possible when buying appliances. 
+6. As a budget-conscious shopper, I want to add wishlist products that I don't need to ensure I get them at my target price.
+7. As a frequent shopper, I want to ensure that I get good deals on everything I purchase.
+8. As a gift shopper, I don't want to spend money on the receivers, so I want to spend as little money as possible. 
+9. As a busy professional, I want to save money but not spend hours and hours refreshing a web page waiting for a discount.
+10. As a contractor, I don't want to save as much money for my clients as possible when buying appliances. 
 
 
 ## Notes
