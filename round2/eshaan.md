@@ -2,7 +2,7 @@
 
 ## Authors
 
-Eshaan Chichula
+Eshaan Chichula, Marc Vaz
 
 ## Problem Statement
 
