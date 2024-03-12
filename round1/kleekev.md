@@ -29,7 +29,7 @@ This extension helps users stay focused by blocking distracting websites during 
 - As a high school athlete, I want to do some homework tasks so that I can have more time to focus on my practice instead of worrying about homework
 - As a college student, I want to decrease chances of burnout so that I can have increased focus on work that I would like to do instead of putting too much energy into mundane work.
 - As a computer science student, I want to write code that is less prone to errors so that I can increase my productivity on actual work instead of errors.
-- As a college student, I want to manage my time better so that I can have time for class work and club activities.
+- As a college student, I want to manage my time better when it comes to assignments and projects so that I can have time for club and social activities.
 
 ## Notes
 
