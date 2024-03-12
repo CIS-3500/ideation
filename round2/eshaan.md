@@ -38,6 +38,12 @@ Additionally, the extension offers white and brown noise options to mask distrac
 3. As a freelancer, I want to easily see how much time I've spent working on a task using the Pomodoro Timer to track my progress and ensure I stay on schedule.
 4. As a busy professional, I want to be able to quickly access the Pomodoro Timer and noise controls with a single click to seamlessly integrate focused work sessions into my day.
 5. As a Chrome user, I want a visually appealing and user-friendly extension that I can easily add to my browser to enhance my workflow.
+6. As a student with ADHD, I can use this extension to enahnce my workflow and reduce noise distractinos around me while studying.
+7. As a dual-degree student that has to manage a heavy courseload, I can use the timer to better organize my time working on different assignments.
+8. As a content creator, I want to be notified when my Pomodoro timer finishes so I can take a short break and avoid burnout, allowing me to maintain focus and creative energy throughout the day.
+9. As someone who struggles with time management, I want the extension to offer suggestions for short break activities during Pomodoro breaks, helping me to refresh without falling into distractions.
+10. As someone working on a project with a team, I want to be able to share the amount of time I spent on a specific task with colleagues, allowing for transparency and accountability within the team.
+
 
 ## Notes
 
