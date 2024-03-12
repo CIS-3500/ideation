@@ -14,12 +14,12 @@ College students and those working/a part of large organizations (companies)
 
 ## Description
 
-[Provide a general description of your Chrome Extension idea in 2-3 sentences. Explain the main purpose and functionality of the extension.]
+This extension will allow users to login to and connect their LinkedIn accounts. Then, on any emails (say on Gmail), those who are "known connections" on LinkedIn, will have their names underlined. Additionally, a name is a LinkedIn connection, the user can also see additional information (such as their LinkedIn Bio)
 
 ## Selling Points
 
-1. [Selling Point 1]
-2. [Selling Point 2]
+1. Quickly see who you might be related to / already acquainted with.
+2. 
 3. [Selling Point 3]
 4. [Selling Point 4]
 5. [Selling Point 5]
