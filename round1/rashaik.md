@@ -34,10 +34,6 @@ _[List user stories that describe the main features of your Chrome Extension. Us
 
 Rather than using a pop-up or sidebar (which could work), I believe an extension like this would be more useful if it directly injected code into the webpage of whatever you are viewing (such as by creating custom underlines)
 
-_[Add any additional notes or considerations for your Chrome Extension idea. This could include potential challenges, alternative approaches, or specific features you want to highlight.]_
-
 ## References & Inspiration
 
 * Existence of LinkedIn API
-
-_[Include any references or sources that inspired your Chrome Extension idea. This could be articles, existing products, or other resources that informed your concept. Just paste any links you found during research.]_
