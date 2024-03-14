@@ -6,7 +6,7 @@ Brady Zhou\
 Ivan Zou
 
 ## Problem Statement
-This Chrome Extension aims to allow the job application process to be less time consuming. Users often need to answer the same tedious questions over and over again to apply for jobs. In addition, with large application volume, users may struggle to keep track of the jobs they have already applied for.
+This Chrome Extension aims to allow the job application process to be less time consuming. Users often need to answer the same tedious questions over and over again to apply for jobs. In addition, with large application volume, users may struggle to keep track of the jobs they have already applied for. Applicants also may worry about the strength of their application and want feedback on how to improve.
 
 ## Target Audience
 The target audience of FastApply are any users who are currently looking for jobs/internships.
@@ -35,7 +35,7 @@ FastApply is a Chrome Extension that allows the user to submit their personalize
 10. As a user, I want to be able to receive links/resources about company and required skills for a specific job, so that I can better prepare for the position.
 
 ## Notes
-Potential challenges include security, parsing the application and answering each question with the specified information, and efficiently storing information about jobs that have just been applied for.
+Potential challenges include security, parsing the application and answering each question with the specified information, and efficiently storing information about jobs that have just been applied for. Creating automated feedback on résumé and writing personalized letters may involve API calls to ChatGPT or developing some AI logic. Additional scraping needs to be done on the job description to extract key information about the job.
 ## References & Inspiration
 
 I was inspired by the Simplify jobs Chrome Extension. It does a similar job, but sometimes it does not take into account specific parts of some job applications such as languages spoken, etc.
