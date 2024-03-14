@@ -31,11 +31,11 @@ The purpose is to aggregate tabs for a certain class or on a certain topic toget
 3. As a student, I want a reminder to close certain tabs that I stop using so that I don't have to manually check each tab in my browser and see if I want to close it
 4. As a coder, I want a keyboard press to take me to my next most used tab so that I don't have to use my mouse.
 5. As a user, I want the part of each tab I was last reading/on to be highlighted when I click to it so that I can efficiently pick up where I left off
-6. As a user, I want the ability to specify the class I'm working on and then only be able to navigate through those tabs so that I don't have any distractions
-7. As a user, I want to have my tabs broken up into different browsers (based on groups/classes) if I have more than 20 open on a given browser so that my desktop is cleaner.
-8. As a user, I want to be able to customize a theme for each class (display mode, appearance, font) so that I can curate an personalized study environment for each class.
-9. As a user, I want to "disable" classes that I am noting currently working on, so that I don't get any notifications about those tabs.
-10. As a user, I want to receive a notification if I have a tab where my session has expired or is about to time out. 
+6. As a user, I want to be able to customize a theme for each class (display mode, appearance, font) so that I can curate an personalized study environment for each class.
+7. As a user, I want to receive a notification if I have a tab where my session has expired or is about to time out.
+8. As someone who gets easily distracted by other tabs, I want the extension to offer a "focus mode" that temporarily hides all open tabs except the active one, allowing me to fully concentrate on the task at hand.
+9. As a student, I want to set a 25-minute Pomodoro timer to focus on studying for an exam so that I can improve my concentration and information retention.
+10. As a student, I want to easily see how much time I've spent working using the Pomodoro Timer to track my progress and ensure I stay on schedule.
 
 ## Notes
 
