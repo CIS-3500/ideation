@@ -36,6 +36,8 @@ The purpose is to aggregate tabs for a certain class or on a certain topic toget
 8. As someone who gets easily distracted by other tabs, I want the extension to offer a "focus mode" that temporarily hides all open tabs except the active one, allowing me to fully concentrate on the task at hand.
 9. As a student, I want to set a 25-minute Pomodoro timer to focus on studying for an exam so that I can improve my concentration and information retention.
 10. As a student, I want to easily see how much time I've spent working using the Pomodoro Timer to track my progress and ensure I stay on schedule.
+11. As a student with 20+ tabs open from different classes, I want to be able to easily split all the tabs up into different windows based on their class/group with a single click.
+12. As someone who struggles with managing my time, I can use short break activities between Pomodoro timers to relax while studying.
 
 ## Notes
 
