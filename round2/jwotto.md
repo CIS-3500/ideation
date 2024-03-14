@@ -2,7 +2,7 @@
 
 ## Authors
 
-John Otto
+John Otto, Franci Branda-Chen
 
 ## Problem Statement
 
@@ -31,7 +31,11 @@ This Chrome Extension transcends the limitations of Gmail's existing filtering f
 - **As a project manager**, the functionality to defer the application of certain filters to non-working hours is crucial, ensuring the delineation of work-related communications and fostering a conducive work-life equilibrium.
 - **As a medical professional**, prioritizing emails containing critical keywords is imperative, ensuring urgent communications are promptly addressed, thereby upholding the standards of patient care.
 - **As a freelancer**, accessing comprehensive analytics on email filtering efficiency is vital, enabling the refinement of my filtering strategies to better allocate my time towards productive endeavors.
+- **As a salesperson**, the ability to track who opens my outgoing emails and when they do so is crucial. This feature would enable me to gauge the interest level of potential clients and follow up appropriately, thereby increasing my chances of closing deals.
+- **As an HR recruiter**, knowing if my emails have been read by job candidates allows me to understand their interest in the position. Additionally, tracking the response time can help in streamlining the recruitment process and improving candidate engagement.
+- **As a content creator**, it's essential to track the engagement with my newsletters, including open rates and click-through rates for links within the email. This data helps me to tailor my content more effectively to my audience's interests, increasing reader engagement and loyalty.
+- **As a project coordinator working with international teams**, the feature to schedule emails for delivery at an optimal time for each recipient's timezone would ensure my communications are received during their working hours, improving response rates and collaboration.
+- **As an event organizer**, the ability to send mass emails with personalized content based on the recipient's preferences or previous interactions would enhance the effectiveness of my communication. Tracking these emails' open rates and engagement levels would also provide insights into the success of my marketing strategies.
 
 ## Notes
-
 While developing this Chrome Extension, it's imperative to navigate the intricacies of integrating with Gmail's existing framework without compromising system performance. Paramount importance must be placed on ensuring the confidentiality and integrity of user data, necessitating adherence to stringent security protocols. Furthermore, the user interface must be intuitively designed, simplifying the process of managing complex filter rules, thus democratizing advanced email management for a wide audience. This endeavor, while challenging, represents a significant leap forward in the realm of digital communication management.
