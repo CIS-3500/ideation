@@ -55,3 +55,4 @@ This strategy may be very easy to circumvent if the block-list is easily modifia
 ## References & Inspiration
 
 [Tab for a cause](https://tab.gladly.io/)
+[Freedom](https://addons.mozilla.org/en-US/firefox/addon/freedom-website-blocker/)
