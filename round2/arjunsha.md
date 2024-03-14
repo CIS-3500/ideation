@@ -2,7 +2,7 @@
 
 ## Authors
 
-Arjun Shah
+Arjun Shah, Max Mercado
 
 ## Problem Statement
 
