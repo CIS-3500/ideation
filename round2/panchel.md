@@ -2,7 +2,7 @@
 
 ## Authors
 
-Chelsea Pan
+Chelsea Pan, Gabby Gu
 
 ## Problem Statement
 
