@@ -6,6 +6,7 @@ Rayan Yu
 Eshan Singhal
 Sam May
 Sam Bhatta
+Andrew Zhen
 
 ## Problem Statement
 
@@ -16,7 +17,6 @@ Many individuals struggle with time management and productivity due to unintenti
 - Students who need to manage their study time effectively.
 - Professionals who want to minimize time-wasting websites during work hours.
 - Anyone looking to improve their digital habits and productivity.
-
 
 ## Description
 
