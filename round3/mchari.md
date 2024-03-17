@@ -2,7 +2,7 @@
 
 ## Authors
 
-[Maya Chari, Shruti Agarwal]
+[Maya Chari, Shruti Agarwal, Eshaan Chichula, Marc Vaz]
 
 ## Problem Statement
 
