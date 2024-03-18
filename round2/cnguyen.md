@@ -45,7 +45,8 @@ As someone with dietary restrictions, I rely on accurate nutrition facts to ensu
 
 As a nutritionist, I want a tool that allows me to quickly look up nutrition facts during consultations or while browsing nutrition-related content online.
 
-As a curious user, I'm interested in exploring the nutritional content of different foods out of personal interest or for educational purposes.
+As a user, I'm interested in keeping track of the history of nutritional content of different foods so that I can make better dietary plan in the 
+future.
 
 As a parent, I want a tool to easily check the nutritional content of various foods to ensure my family maintains a balanced diet.
 
