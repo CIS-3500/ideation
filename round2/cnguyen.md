@@ -21,7 +21,7 @@ Nutritionists and dietitians
 ## Description
 
 The Chrome Extension aims to provide users with instant access to detailed nutrition information for a wide range of foods. Users can simply highlight the name of a food item on any webpage and right-click to bring up a context menu option to "Lookup Nutrition Facts". Upon selection, the extension will fetch and display relevant nutritional data such as calories, macronutrients (protein, fat, carbohydrates), vitamins, minerals, and more. User can edit the measurement to get the customized 
-nutritional data they want.
+nutritional data they want. 
 
 ## Selling Points
 
@@ -53,9 +53,11 @@ As a student studying nutrition, I need a resource to quickly reference nutritio
 
 As a food blogger, I rely on accurate nutrition information to create healthy and balanced recipes for my audience.
 
-As a person who wants to lose weight, I need a tool that helps me track my daily food intake and monitor my progress towards achieving my weight-loss goals.
+As a user, I want to visualize the macronutriants of my food so that I 
+can easily understand the nutrition facts of my diet.
 
-As a healthcare provider, I need a tool to educate patients on the nutritional values of different foods and support them in making healthier dietary choices.
+As a user, I want recommendation on the amount of food/portion that I 
+should consume, so that I can make better dietary choices.
 
 ## Notes
 
