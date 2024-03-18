@@ -8,7 +8,6 @@ Rachel Nguyen
 
 In today's fast-paced world, many individuals are conscious about their dietary choices and seek quick and easy access to nutrition information. However, finding accurate and comprehensive nutrition facts for various foods can be time-consuming and cumbersome.
 
-
 ## Target Audience
 
 Health-conscious individuals
@@ -17,11 +16,12 @@ People with dietary restrictions or special dietary needs
 Individuals tracking their calorie intake
 Nutritionists and dietitians
 
-
 ## Description
 
 The Chrome Extension aims to provide users with instant access to detailed nutrition information for a wide range of foods. Users can simply highlight the name of a food item on any webpage and right-click to bring up a context menu option to "Lookup Nutrition Facts". Upon selection, the extension will fetch and display relevant nutritional data such as calories, macronutrients (protein, fat, carbohydrates), vitamins, minerals, and more. User can edit the measurement to get the customized 
-nutritional data they want. 
+nutritional data they want, keep track of the history of their search.
+There is a graph display feature to display the macronutrients for better
+visualization and a portion recommendation to suggest the daily serving size.
 
 ## Selling Points
 
