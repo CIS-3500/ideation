@@ -37,5 +37,4 @@ This chrome extension is an extension that allows users to organize and manage t
 
 ## References & Inspiration
 
--Inspiration from the Chrome Extension "Tab Manager for Chrome" 
--ChatGPT
+-Inspiration from the Chrome Extension "Tab Manager for Chrome", ChatGPT
