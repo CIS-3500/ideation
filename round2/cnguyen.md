@@ -2,7 +2,7 @@
 
 ## Authors
 
-Rachel Nguyen
+Rachel Nguyen, Ruth Tilahun
 
 ## Problem Statement
 
