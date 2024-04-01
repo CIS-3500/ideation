@@ -1,4 +1,4 @@
-# ideation
+# CIS 3500-001 — Project Ideation — Spring 2024
 
 This repository is for the ideation of the project. It is a place to share ideas and discuss them.
 
