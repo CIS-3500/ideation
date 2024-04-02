@@ -68,19 +68,25 @@ Might have to limit ourselves to sites where prices can easily be scraped.
 
 ### User Interface
 
-_[Describe the user interface of your Chrome Extension: What will users see when they interact with your extension? How will they interact with the extension? You can include rough sketches or wireframes to illustrate your design, but name your files `<project id>-ui-1.png`, `<project id>-ui-2.png`, etc.]_
+- There is a popup menu with two sub-pages: one for submitting purchases and another for viewing / editing current budget breakdowns.
+- Purchase submission has dropdown for choosing category, textboxes for inputting amount + product name, window for viewing budget remaining after making this purchase, and a submission button
+- Budget view has each category next to a window displaying the current amount, and allows users to edit it from there. Also has a window for adding a new category + its associated budget
 
-_[Describe which Chrome UI/UX elements you will use in your extension, such as pop-ups, context menus, browser actions, omnibox, sidebar, etc.]_
 
 ### API, Libraries, and Frameworks
 
-_[- List any APIs, libraries, or frameworks that you plan to use in your Chrome Extension.]_
-_[- Include links to the documentation or other relevant resources.]_
-_[- Explain very briefly how you will use these tools in your project, one sentence per item.]_
+- JavaScript, Node, React
+- Sheets API
+
 
 ### Data Storage
 
-_[Explain what data you might need to store, and provide some overview of the models—that is, the structure of the data.]_
+- We are going need to store items and its price
+- A budget
+- Store the categories the person defines on browser
+- Name, allocation, remaining
+- The sheet which the budget corresponds to
+
 
 ## Project Management
 
@@ -88,21 +94,39 @@ _[Explain what data you might need to store, and provide some overview of the mo
 
 _[Select a Leader, who will make final decisions on the vision of the project; and a Manager, who will oversee the project management and ensure all team members have everything they need to contribute effectively. List the remaining team members and their roles.]_
 
-- **Leader:** [Name]
-- **Manager:** [Name]
-- **Remaining Team Members:** [Name 1, Name 2, [Name 3]]
+- **Leader:** Allie
+- **Manager:** Roberto
+- **Remaining Team Members:** Ivan, Arjun
 
-_[Provide a brief overview of what each team member will work on. How will you collaborate on this project? What tools or platforms will you use to communicate and share code?]_
+Roberto
+  - API / scraping research
+  - API Integration
+Allie
+  - Logic of adding categories, updating budget 
+Ivan
+  - Page layout + frontend
+  - Graphic design
+Arjun
+  - Chrome storage
+  - React Stuff
+  - API Integration
+
+Weekly meeting at beginning of week to lay out objectives, constant communication during the week
+Communication via Slack channel, shared repo branches for each member’s weekly task (merged by end of week)
+
+
 
 ### Risks and Mitigation
 
-_[Identify potential risks that could affect the development of your Chrome Extension. How will you mitigate these risks? What is your contingency plan if things don't go as expected?]_
+- Unusable sheets API
+  - Write a disclaimer that this is only for online purchase budgeting
+- No good website for scraping
+  - Just don’t this and instead add a simpler feature (ex: warning system)
 
 ### Milestones and Timeline
 
-_[You have about four weeks to work on this project. During the project management, you will use an Agile methodology to manage your tasks. For now, provide your best estimate of the work done each week, from Week 1 to Week 4.]_
+- Week 1: Research Sheets API, UI MockUp + Implementation (functionless app)
+- Week 2: Functionalities: add + submit category, submit purchase to category
+- Week 3: Sheets integration, research scraping + automatic purchase logging, testing
+- Week 4: Beautify, finish sheets integration, auto log + scrape if it’s possible, publish!
 
-_[- Week 1: Task 1, Task 2, Task 3
-- Week 2: Task 4, Task 5, Task 6
-- Week 3: Task 7, Task 8, Task 9
-- Week 4: Task 10, Task 11, Task 12]_
