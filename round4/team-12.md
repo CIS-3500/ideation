@@ -2,7 +2,7 @@
 
 ## Authors
 
-Group 12: Kevin Liu, Adam Gorka, Andy Li, Judah Nouriyelian
+Team 12: Kevin Liu, Adam Gorka, Andy Li, Judah Nouriyelian
 
 ## Problem Statement
 
