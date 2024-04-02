@@ -74,43 +74,138 @@ https://old.reddit.com/r/chrome_extensions/comments/15xg1vv/extensions_for_produ
 
 _[Describe the user interface of your Chrome Extension: What will users see when they interact with your extension? How will they interact with the extension? You can include rough sketches or wireframes to illustrate your design, but name your files `<project id>-ui-1.png`, `<project id>-ui-2.png`, etc.]_
 
-TODO
+[View POC](https://github.com/rayan-yu/exTimesion/blob/main/IMG_D4ECF3952792-1.jpeg)
 
 _[Describe which Chrome UI/UX elements you will use in your extension, such as pop-ups, context menus, browser actions, omnibox, sidebar, etc.]_
 
-We would use pop-ups to show specific page statistics/breakdown, and we would allow the user to open up a larger sidebar to show the entire dashboard of statistics, if they'd like to see a more detailed breakdown. 
+We would use pop-ups to show specific page statistics/breakdown, and we would allow the user to open up a larger sidebar to show the entire dashboard of statistics, if they'd like to see a more detailed breakdown.
 
 ### API, Libraries, and Frameworks
 
-_[- List any APIs, libraries, or frameworks that you plan to use in your Chrome Extension.]_
-_[- Include links to the documentation or other relevant resources.]_
-_[- Explain very briefly how you will use these tools in your project, one sentence per item.]_
+Tabs API (chrome.tabs): This is crucial for managing tabs within Chrome. We plan on using it to listen for tab activation, creation, update, and removal events. This way, we can start or stop the timer based on the user's activity in each tab.
+
+Windows API (chrome.windows): Similar to the Tabs API, but for managing browser windows. It's important for understanding when a user switches windows, which can affect how we track time spent in tabs.
+
+Storage API (chrome.storage): This API is essential for saving data locally on the user's machine for persistent storage. We would probably use this to store the amount of time spent on each tab, allowing the extension to maintain records between browsing sessions.
+
+chrome.idle: Detects when the user is idle, which can help in pausing time tracking when the user is not actively browsing.
+Content Scripts (chrome.contentScripts): While not directly involved in time tracking, content scripts can be used to interact with the content of a web page. For example, we’re interested in showing an overlay on the tab that's currently being timed or inject specific elements to provide feedback to the user.
+
+Chart.js: simple yet flexible JavaScript charting library that can be used to display analytics data through line charts, bar charts, etc.
+
+D3.js: more complex and powerful library for data visualization that allows for highly customizable graphics. It's useful if you need more advanced visualizations.
+
+Moment.js: now considered a legacy project in maintenance mode, it's still widely used for parsing, validating, manipulating, and displaying dates and times in JavaScript.
+
+Node.js: running JavaScript code outside of a browser.
+
+Npm: managing the project's dependencies.
+
+Date-fns: modern alternative to Moment.js that offers a comprehensive, yet simple and consistent toolset for manipulating JavaScript dates in a browser & Node.js, to help in dealing with dates and times for analytics purposes.
+
+Jest: Javascript unit testing.
+
+Permissions: In the extension's manifest file, you'll need to declare permissions to use these APIs, including "tabs", "storage", "windows", and any other permissions necessary for your specific functionality.
+
+Page Action / Browser Action: These APIs allow the extension to have an icon in the Chrome toolbar or next to the address bar, which users can interact with to view stats or change settings.
+
 
 ### Data Storage
 
-_[Explain what data you might need to store, and provide some overview of the models—that is, the structure of the data.]_
+Data to Store
+Tab Information: This includes the tab ID, window ID (since a user can have multiple windows), and the URL of the tab. The URL helps identify the website, but for privacy and simplicity, you might choose to store only the domain name.
+
+Time Spent: The amount of time spent on each tab. This could be in the form of a timestamp for when the tab became active and when it was closed or switched. Calculating the difference between these timestamps can give you the total active time spent on the tab.
+
+Sessions: If you want to track browsing sessions, you might also store session identifiers along with start and end times for each browsing session.
+
+Data Models
+Tab Model
+Tab ID: Unique identifier for each tab. (Primary Key)
+Window ID: Identifier of the window the tab belongs to.
+URL/Domain: The domain name of the website open in the tab.
+Active Time: The total active time spent on the tab. This could be an accumulation of all active periods within a session.
+
+Session Model
+Session ID: Unique identifier for each browsing session. (Primary Key)
+Start Time: Timestamp when the session started.
+End Time: Timestamp when the session ended.
+Tabs: A list or array of Tab IDs active in the session.
+
+Time Entry Model
+Entry ID: Unique identifier for each time entry. (Primary Key)
+Tab ID: Linked to the Tab Model.
+Start Time: Timestamp when the tab became active.
+End Time: Timestamp when the tab was closed or switched.
+Duration: Calculated duration based on Start Time and End Time.
+
 
 ## Project Management
 
 ### Collaboration and Task Allocation
 
-_[Select a Leader, who will make final decisions on the vision of the project; and a Manager, who will oversee the project management and ensure all team members have everything they need to contribute effectively. List the remaining team members and their roles.]_
+- **Leader:** Rayan Yu
+- **Manager:** Max Mercado
+- **Remaining Team Members:** Duriya Rehan, Andrew Zhen
 
-- **Leader:** [Name]
-- **Manager:** [Name]
-- **Remaining Team Members:** [Name 1, Name 2, [Name 3]]
 
 _[Provide a brief overview of what each team member will work on. How will you collaborate on this project? What tools or platforms will you use to communicate and share code?]_
 
+Chrome extension backend: Figure out Tab/Window tracking logic, pick/learn APIs to use to track time spent on window and tabs open
+
+Rayan + Andrew
+
+Chrome extension backend: Database schema creation, add/remove/access calls, how to structure js routes from front-end
+
+Max
+
+Chrome extension frontend: popups for specific website details, sidebar for more comprehensive data. Basically learn JS/CSS/React for how to format a pop-up chrome extension and how it looks
+
+Duriya + Max
+
+
+
 ### Risks and Mitigation
 
-_[Identify potential risks that could affect the development of your Chrome Extension. How will you mitigate these risks? What is your contingency plan if things don't go as expected?]_
+#### 1. Privacy Concerns
+Risk: Users may be concerned about the tracking of their internet usage, leading to privacy issues and potential backlash.
+Mitigation: Clearly communicate the data collection process, ensuring transparency. Implement strict privacy controls, such as anonymizing data and not storing sensitive information. Offer users control over their data, including options to delete it.
+Contingency Plan: If privacy concerns still arise, be ready to adjust data collection practices based on user feedback and possibly consult with privacy experts to improve privacy measures.
+
+#### 2. Performance Impact
+Risk: The extension could slow down the user’s browser by using too many resources, leading to a poor user experience.
+Mitigation: Optimize code for efficiency, ensuring minimal impact on browser performance. Regularly test the extension’s performance across different devices and browser versions.
+Contingency Plan: If users report performance issues, prioritize updates that optimize resource usage, even if it means rolling back some features temporarily to maintain a good user experience.
+
+#### 3. Data Security
+Risk: Collected data might be vulnerable to breaches or unauthorized access.
+Mitigation: Implement robust security measures, including encryption for stored data and secure communication channels for data transmission. Regularly update security protocols in response to new vulnerabilities.
+Contingency Plan: Develop a response plan for potential data breaches, including immediate security audits, notifying affected users, and working with cybersecurity experts to prevent future incidents.
+
+#### 4. Browser API Changes
+Risk: Updates to Chrome’s APIs or policies could break the extension’s functionality or make it non-compliant.
+Mitigation: Stay informed about upcoming changes to Chrome’s extension development guidelines and APIs. Maintain a modular architecture so you can quickly adapt to API changes without a complete overhaul.
+Contingency Plan: If an API update significantly impacts the extension, communicate transparently with users about potential delays in functionality updates and work diligently to adapt the extension to new requirements.
+
 
 ### Milestones and Timeline
 
-_[You have about four weeks to work on this project. During the project management, you will use an Agile methodology to manage your tasks. For now, provide your best estimate of the work done each week, from Week 1 to Week 4.]_
+#### Week 1: Initial Setup and Planning
+Task 1: Project Setup - Establish the project structure, set up a version control system (e.g., Git), and prepare the development environment.
+Task 2: Requirements Gathering - Finalize the feature list, user stories, and acceptance criteria for the extension. This includes defining privacy measures, data storage needs, and the initial design for the user interface.
+Task 3: Design Mockups and Architecture - Create initial design mockups for the user interface and outline the extension's architecture, focusing on how components interact, data flow, and storage.
 
-_[- Week 1: Task 1, Task 2, Task 3
-- Week 2: Task 4, Task 5, Task 6
-- Week 3: Task 7, Task 8, Task 9
-- Week 4: Task 10, Task 11, Task 12]_
+#### Week 2: Core Development Begins
+Task 4: Implement Tracking Logic - Develop the core functionality to track time spent on tabs, including activating and deactivating timers based on tab focus.
+Task 5: Data Storage Implementation - Set up the local storage schema for storing tab time data securely and efficiently.
+Task 6: Basic UI Implementation - Start building the user interface based on the design mockups, focusing on a minimal viable product that displays time spent on websites.
+
+#### Week 3: Feature Completion and Initial Testing
+Task 7: Complete UI Development - Finish all user interface components, including options pages, popups, and notifications.
+Task 8: Integration and Functional Testing - Integrate different parts of the extension and conduct thorough functional testing to ensure reliability and performance.
+Task 9: Privacy and Security Measures - Implement and test privacy controls and security measures, ensuring data is handled responsibly.
+
+#### Week 4: Refinement and Deployment
+Task 10: User Feedback Loop - Release a beta version to a small group of users or stakeholders, gather feedback, and make necessary adjustments.
+Task 11: Final Testing and Bug Fixing - Address any issues identified during the beta phase, perform final testing including performance, security, and usability tests.
+Task 12: Launch Preparation and Documentation - Finalize all documentation, prepare launch materials, and submit the extension to the Chrome Web Store.
