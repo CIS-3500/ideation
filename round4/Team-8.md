@@ -14,7 +14,7 @@ Our target audience is people who enjoy shopping and are on a budget. Specifical
 
 ## Description
 
-The purpose of our Chrome Extension is to help users stay within their budget when shopping online. It will allow users to set budget categories (e.g. clothing, food, vacation) and monthly budget goals. While a user is browsing the web page of a product/service they might buy, the extension will find the price and provide a pop-up notification to the user informing them of how that purchase would affect their budget (e.g. "This item exceeds your __ budget by $__" or "You will have $__ remaining in your __ budget after this purchase").
+The purpose of our Chrome Extension is to help users stay within their budget when shopping online. It will allow users to set budget categories (e.g. clothing, food, vacation) and monthly budget goals. While a user is browsing the web page of a product/service they might buy, the extension will find the price and provide a pop-up notification to the user informing them of how that purchase would affect their budget (e.g. "This item exceeds your __ budget by $__" or "You will have $__ remaining in your __ budget after this purchase"). If prices of a product or the category can't automatically be determined by the extension, a pop-up will appear where the user can quickly select the category from their pre-made category (or create a new one) and type in the price and see how the purchase would affect the budget for this category. 
 
 ## Selling Points
 
