@@ -58,41 +58,61 @@ Aiming to refine the course selection at Penn, our Chrome Extension introduces a
 
 ### User Interface
 
-_[Describe the user interface of your Chrome Extension: What will users see when they interact with your extension? How will they interact with the extension? You can include rough sketches or wireframes to illustrate your design, but name your files `<project id>-ui-1.png`, `<project id>-ui-2.png`, etc.]_
+Our current user interface model can be found in: https://www.figma.com/file/5i9DfeGxYjpjwNT6k86YJf/PennCourseChromeExtension?type=design&node-id=0%3A1&mode=design&t=CNqnicbHRixWtpEs-1.
 
-_[Describe which Chrome UI/UX elements you will use in your extension, such as pop-ups, context menus, browser actions, omnibox, sidebar, etc.]_
+### Chrome UI/UX elements:
+
+- pop-up: Users can directly search for a course/professor in the search tab within the popup window.
+- context menus: After highlighting a course or professor's name, the user can use the extension in the context menu to search directly without having to type.
 
 ### API, Libraries, and Frameworks
 
-_[- List any APIs, libraries, or frameworks that you plan to use in your Chrome Extension.]_
-_[- Include links to the documentation or other relevant resources.]_
-_[- Explain very briefly how you will use these tools in your project, one sentence per item.]_
+#### API:
+
+- https://penncoursereview.com/api/documentation/. We will use the two api's (Retrieve Course, Course Search) in this doc to search a Penn course or professor.
+
+#### Libraries:
+
+- Axios: to make the query with the api url.  
+- Javascript
+- CSS
+- HTML
+
+#### Framework:
+
+- Express.js: to set up the routes for the queries.
+- React.JS
 
 ### Data Storage
 
-_[Explain what data you might need to store, and provide some overview of the models—that is, the structure of the data.]_
+We are not storing any course or professor data since we are simply fetching it from the penncoursereview api. 
+If we decide to implement a favorite course/professor cart, then in that case we could simply store the names (with Airtable for course name/professor)
 
 ## Project Management
 
 ### Collaboration and Task Allocation
 
-_[Select a Leader, who will make final decisions on the vision of the project; and a Manager, who will oversee the project management and ensure all team members have everything they need to contribute effectively. List the remaining team members and their roles.]_
-
-- **Leader:** [Name]
-- **Manager:** [Name]
-- **Remaining Team Members:** [Name 1, Name 2, [Name 3]]
-
-_[Provide a brief overview of what each team member will work on. How will you collaborate on this project? What tools or platforms will you use to communicate and share code?]_
+- **Leader:** Franci Branda-Chen. Makes the last decision about a feature or conflict.
+- **Manager:** Eshaan Chichula. Oversees and keeps track that the other teammates are not blocked in something.
+- **Remaining Team Members:** Jake G. M., Matt Fu. Everyone will work on the UI/Backend.
 
 ### Risks and Mitigation
 
-_[Identify potential risks that could affect the development of your Chrome Extension. How will you mitigate these risks? What is your contingency plan if things don't go as expected?]_
+1. 
+- **Risk:** Some team members may neglect to complete their assigned work, which may lead to the group as a whole to fall behind and resentment between team members to grow.
+- **Mitigation:** Each member, which especial emphasis placed on the manager, should hold his teammates accountable for the work they have been assigned.
+
+2. 
+- **Risk:** Imbalances in work assignments or areas of knowledge may lead to certain members feeling as though they are taking a larger share of the work than others.
+- **Mitigation:** The leader and manager should ensure that every member is doing a roughly equal amount of work which plays to his respective strengths.
+
+3.
+- **Risk:** Our UI may be, as compared to that employed by PennCourseReview, difficult to use or navigate.
+- **Mitigation:** We should test the UI of our final product with real users to ensure that it is as intuitive as possible.
 
 ### Milestones and Timeline
 
-_[You have about four weeks to work on this project. During the project management, you will use an Agile methodology to manage your tasks. For now, provide your best estimate of the work done each week, from Week 1 to Week 4.]_
-
-_[- Week 1: Task 1, Task 2, Task 3
-- Week 2: Task 4, Task 5, Task 6
-- Week 3: Task 7, Task 8, Task 9
-- Week 4: Task 10, Task 11, Task 12]_
+Week 1: TASK 1: Find APIs, Task 2: Design UI on Figma
+Week 2: Task 1: Everyone must look at the chrome extension Github HW 4 (only for popup and context action), Task 2: Populate the Github with a template to work with, Task 3: Design the routes for the backend queries.
+Week 3: Task 1: Start implementing the front end.
+Week 4: Task 1: Finish up the last details about the features, Task 2: Add tests 
