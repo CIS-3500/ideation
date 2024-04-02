@@ -34,6 +34,8 @@ Here are how the rounds are structured:
 
 For this phase, use [`TEMPLATE-2.md`](TEMPLATE-2.md) to structure your ideas (it is the same as `TEMPLATE-1.md`, but with additional section after "_References & Inspiration_"), replace the prompts in between brackets, and submit using a pull request in the `round4` directory.
 
+Name this file as `team-XX.md` where `XX` is your team number (`team-01.md`, `team-19.md`, etc.).
+
 **You must complete the proposal in two steps:**
 - **By Monday Apr 1 at 11:59 PM ET:** Complete everything up until the "_References & Inspiration_" section, **but NOT the "Technical Details" section and below**.
   - ⚠️ Don't forget to also submit the [TA Bidding Form](https://forms.gle/oFzxsmSvSsKJSwLE6) by the same time.
