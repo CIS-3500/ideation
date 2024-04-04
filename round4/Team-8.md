@@ -90,7 +90,7 @@ React, JavaScript, Local storage
 
 
 ## Project Management
-Will have a google doc tracking what we are doing each week and our progress (not started, started, done)
+Using GitHub Projects 
 
 ### Collaboration and Task Allocation
 
