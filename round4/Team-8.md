@@ -79,6 +79,7 @@ React, JavaScript, Local storage
 - JavaScript, Node, React
 - Sheets API
 - Jest
+- sinon-chrome
 
 
 ### Data Storage
