@@ -65,6 +65,7 @@ Might have to limit ourselves to sites where prices can easily be scraped.
 
 
 ## Technical Details
+React, JavaScript, Local storage
 
 ### User Interface
 
