@@ -78,6 +78,7 @@ React, JavaScript, Local storage
 
 - JavaScript, Node, React
 - Sheets API
+- Jest
 
 
 ### Data Storage
