@@ -89,6 +89,7 @@ Might have to limit ourselves to sites where prices can easily be scraped.
 
 
 ## Project Management
+Will have a google doc tracking what we are doing each week and our progress (not started, started, done)
 
 ### Collaboration and Task Allocation
 
