@@ -1,4 +1,4 @@
-# Chrome Extension Idea: [Title]
+# Chrome Extension Idea: LazyReader
 
 ## Authors
 
@@ -6,29 +6,28 @@ Rohan Kamat, Emma Lee, Kevin Lee, Annie Wang
 
 ## Problem Statement
 
-The LazyReader Chrome extension aims to streamline information gathering and comprehension for students, researchers, and individuals by integrating ChatGPT's capabilities directly into the browser. Sometimes articles or text give an unnecessary amount of detail, which can cost readers a lot of time and effort. The LazyReader Chrome extension addresses the challenge of information overload and the high time cost associated with digesting lengthy online articles, academic papers, and reports. LazyReader incorporates features such as text summarization, analysis, and question generation so users can efficiently extract key insights from web pages without the need to navigate away.
+The LazyReader Chrome extension aims to streamline information gathering and comprehension for students, researchers, and individuals by integrating ChatGPT's capabilities directly into the browser. Sometimes articles or text give an unnecessary amount of detail, which can cost readers a lot of time and effort. The LazyReader Chrome extension addresses the challenge of information overload and the high time cost associated with digesting lengthy online articles, papers, or reports. LazyReader incorporates features such as text summarization, analysis, and question generation so users can efficiently extract key insights from web pages without the need to navigate away.
 
 ## Target Audience
 
-
-The target audience for Lazy Reader includes students, researchers, knowledge seekers, and general internet users who regularly encounter lengthy textual content while browsing the web. These individuals seek to understand complex information with minimal effort. They value their time and seek efficient ways to absorb information without sacrificing depth and comprehension. 
+Lazy Reader mainly targets students and general internet users who regularly encounter lengthy textual content while browsing the web. These individuals seek to gain a base-level understanding of information with minimal effort. They value their time and seek efficient ways to absorb information. 
 
 ## Description
 
-LazyReader provides users with a seamless solution for digesting textual content on web pages. It is a Chrome extension designed to empower users to instantly summarize, analyze, and question the content of any webpage with a simple click. By leveraging ChatGPT's advanced language processing capabilities, users can effortlessly request summaries, analysis, and questions based on the text present on any webpage they visit. This extension aims to deepen users’ understanding of various topics and enhance their browsing efficiency.
+LazyReader provides users with a seamless solution for digesting textual content on web pages. It is a Chrome extension designed to empower users to instantly summarize the content of any webpage with a simple click. By leveraging ChatGPT's advanced language processing capabilities, users can effortlessly request summaries, key terms, and/or reflection questions based on the text present on any webpage they visit. This extension aims to help users understand the gist of various topics and enhance their browsing efficiency.
 
 ## Selling Points
 
 1. Time Efficiency: Dramatically reduces the time required to understand and digest extensive online articles, papers, and reports.
-2. Enhanced Comprehension: Highlight key points and themes, improving users' grasp of complex subjects.
-3. Customizable Summaries: Offers adjustable summary lengths and tone, allowing users to choose the depth of detail they need.
-4. Engagement and Interaction: Generates summaries and questions based on the text to encourage deeper thinking and engagement with the content.
+2. Assisted Comprehension: Highlight key points and themes, giving users supplemental tools when trying to understand complex subjects.
+3. Customizable Summaries: Offers adjustable summary lengths and tone, allowing users to choose the depth of detail they want.
+4. Engagement and Interaction: Generates summaries and questions based on the text to encourage deeper thinking and engagement with the content if the user desires.
 5. Ease of Use: Integrates seamlessly into the browser experience, enabling users to access its features on any webpage with minimal disruption.
 
 ## User Stories
 
 1. As a student preparing for exams, I want to summarize lengthy articles I find online so that I can review key concepts more efficiently.
-2. As a busy professional, I want to generate questions from articles I read online so that I can deepen my understanding of the content.
+2. As a busy individual, I want to generate questions from articles I read online so that I can better reflect on my understanding of the content.
 3. As a casual reader, I want to quickly summarize news articles I come across so that I can stay updated on current events without spending too much time.
 4. As a language learner, I want to analyze and generate questions from online articles in my target language so that I can improve my comprehension skills.
 5. As an educator, I want to generate questions from educational material so that I can create quizzes and tests more efficiently.
@@ -36,10 +35,10 @@ LazyReader provides users with a seamless solution for digesting textual content
 7. As a project manager, I want to condense project documentation so that my team can grasp essential details without reading every page.
 8. As an investor, I want to summarize financial reports so that I can quickly assess investment opportunities.
 9. As an academic, I want to generate questions about the articles I read so that I can prepare for discussions and presentations.
-10. As a book club organizer, I want to summarize book reviews and author interviews from various websites, so that I can provide comprehensive information to club members and facilitate meaningful discussions.
-11. As a social media manager, I want to analyze user comments and feedback on social media posts, so that I can identify popular topics and trends to inform my content strategy.
-12. As a student conducting research, I want to extract key terms and their definitions from academic articles and textbooks, so that I can build a comprehensive understanding of complex topics and improve my academic performance.
-13. As a researcher exploring interdisciplinary topics, I want to identify and understand key concepts from diverse sources, so that I can integrate them into my research and contribute to interdisciplinary dialogue and collaboration.
+10. As a book club organizer, I want to summarize book reviews and author interviews from various websites, so that I can provide general information to quickly debrief club members.
+11. As a social media manager, I want to consolidate user comments and feedback on social media posts, so that I can identify popular topics and trends to inform my content strategy.
+12. As a student conducting research, I want to extract key terms and their definitions from academic articles and textbooks, so that I can generate a simple review list to remind me of what topics I’ve looked at.
+13. As a researcher conducting literature reviews, I want to understand the main ideas and concepts of the papers I’m reviewing fast, so that I can more productively select the most relevant papers.
 14. As a student preparing for standardized tests, I want to learn important vocabulary words and their definitions from reading passages and study materials, so that I can improve my performance on vocabulary-based questions.
 15. As a professional attending industry conferences and seminars, I want to quickly grasp the meaning of specialized terms and acronyms used in presentations and discussions, so that I can actively participate in conversations and networking opportunities.
 16. As a journalist covering diverse topics, I want to quickly understand the meaning of technical terms and specialized terminology used in interviews and press releases, so that I can accurately report on complex issues and communicate effectively with my audience.
@@ -124,6 +123,8 @@ To ensure effective collaboration and communication throughout the project, we p
 
 <b>Week 2:</b>
 - [Kevin, Emma] Task 5: Build additional UI components (buttons, dropdowns, etc.)
+  - [Kevin] Task 5.1: Build default UI (text-based, more accessible, simpler look)
+  - [Emma] Task 5.2: Build display UI (icon-based, less accessible, gimmicky) 
 - [Annie] Task 6: Write code to grab webpage text
 - [Rohan] Task 7: Finalize prompts & Start writing logic to make OpenAI requests
   - Can make requests on “dummy” text since webpage text will not be ready
