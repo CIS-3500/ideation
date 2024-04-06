@@ -67,6 +67,8 @@ Chrome Elements:
 - [Potential Expansion] Separate webpage
   - User can choose to open the sidebar in its own webpage (full tab)
 
+<i>Note:</i> We plan to let users toggle between a more playful UI and a more plain UI. We plan to default to the playful UI, but use the plain UI as a failsafe in the case any fonts are unavailable or if any icons are unloadable.
+
 [Figma file](https://www.figma.com/file/ZP70Xo4z1mLCbY2uHYD8fi/LazyReader?type=design&node-id=1%3A2&mode=design&t=uT3QaqEEoUQaPr83-1
 )
 
@@ -118,13 +120,13 @@ To ensure effective collaboration and communication throughout the project, we p
   1. JS library
   2. Manipulate DOM elements
   - Decide what specific elements we want to target
-- [Emma] Task 3: Finish Figma mocks & Build sidebar base UI component
+- [Emma] Task 3: Finish Figma mocks & start building UI components
 - [Rohan] Task 4: Initiate OpenAI API usage & Start prompt engineering
 
 <b>Week 2:</b>
 - [Kevin, Emma] Task 5: Build additional UI components (buttons, dropdowns, etc.)
-  - [Kevin] Task 5.1: Build default UI (text-based, more accessible, simpler look)
-  - [Emma] Task 5.2: Build display UI (icon-based, less accessible, gimmicky) 
+  - [Kevin] Task 5.1: Build plain UI (text-based, more accessible, simpler look)
+  - [Emma] Task 5.2: Build playful UI (icon-based, less accessible, hand-drawn look) 
 - [Annie] Task 6: Write code to grab webpage text
 - [Rohan] Task 7: Finalize prompts & Start writing logic to make OpenAI requests
   - Can make requests on “dummy” text since webpage text will not be ready
