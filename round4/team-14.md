@@ -1,4 +1,4 @@
-# Chrome Extension Idea: Tamatimer
+# Chrome Extension Idea: Tamadoro
 
 ## Authors
 
@@ -10,11 +10,11 @@ There are a lot of productivity tools online, but not many target extrinsic moti
 
 ## Target Audience
 
-* Those who need help focusing
-* People working under a time crunch
-* People working on a schedule
-* Students studying for exams
-* Millennial and early Gen-Z who used to play with Tomagochi
+- Those who need help focusing
+- People working under a time crunch
+- People working on a schedule
+- Students studying for exams
+- Millennial and early Gen-Z who used to play with Tomagochi
 
 ## Description
 
@@ -52,7 +52,7 @@ Tamatimer is a time management chrome extension which enhances user productivity
 
 ## Notes
 
-* Will potentially use the Pokémon concept instead of Tamagachi to have more sprite options.  Will be careful of not breaking copyright laws, where [fair media usage is outlined here](https://press.pokemon.com/en/Assets-Use-Terms).
+Considering implementing a pop up that consists of the timer and actions to modify the timer if we have enough time but have decided to prioritize the sidebar since it contains all of the essential features of the extension.
 
 ## References & Inspiration
 
@@ -65,41 +65,37 @@ Tamatimer is a time management chrome extension which enhances user productivity
 
 ### User Interface
 
-When users open the Chrome Extension, a side bar will appear which specifies the user projects, their current pet, and the timer they will use for productivity. There will also be an option to switch from a side bar so the extension takes up less screen space. The popup sonsists of the timer and actions to modify the timer.
+When users open the Chrome Extension, a side bar will appear which specifies the user tasks, their current pet, and the timer they will use for productivity. There will also be an option to switch from a side bar so the extension takes up less screen space.
 
 ### API, Libraries, and Frameworks
 
-* React
-* HTML
-* CSS
-* JavaScript
+- React
+- HTML
+- CSS
+- JavaScript
 
 ### Data Storage
 
-Game mechanics (health of the pet) will be stored in a JSON file.
+Game mechanics (health of the pet and task organization) will be stored in local storage of user's browser.
 
 ## Project Management
 
 ### Collaboration and Task Allocation
 
-* **Leader:** Amanda Lee
-* **Manager:** Ash Fujiyama
-* **Remaining Team Members:** Sydney Simon (software developer), Gabby Gu (designer)
+- **Leader:** Amanda Lee
+- **Manager:** Ash Fujiyama
+- **Remaining Team Members:** Sydney Simon (software developer), Gabby Gu (designer)
 
 Collaboration mode: Slack, in person conversation
-
-**Task Allocation:**
-
-* Gabby will design the Tamagochi sprites and work on UI/UX elements of the extension.
-* The rest of us as a group is going to review the extension homework provided to learn how coding extensions work before dividing the rest of the assignment.
+Gabby will design the Tamagochi sprites and work on UI/UX elements of the extension.
 
 ### Risks and Mitigation
 
-The amount of features is a risk, as well as the difficulty integrating them into a single product.  The natural solution would be to target the essential features first, and then iteratively add extra features.  There will be no risks associated with having API's and external storage as our extension does not make use of it.
+The amount of features is a risk, as well as the difficulty integrating them into a single product. The natural solution would be to target the essential features first, and then iteratively add extra features. There will be no risks associated with having API's and external storage as our extension does not make use of it.
 
 ### Milestones and Timeline
 
-* Week 1: Finalize components, identify game mechanics, build mockup
-* Week 2: Pet drafts, skeletons code for popup and sidebar
-* Week 3: Implementent timer, feeding pet(JSON file), Project manager implementation
-* Week 4: Implement notifications, polishing UI, Testing
+- Week 1: Finalize components, identify game mechanics, build mockup
+- Week 2: Pet drafts, skeletons code for popup and sidebar, implement timer
+- Week 3: Implement feeding pet mechanism and task manager/organizer
+- Week 4: Implement notifications, polishing UI, Testing
