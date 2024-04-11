@@ -6,13 +6,9 @@ Akanksha Tripathy, Ruth Tilahun, Tianyi Wu, Yola Yan
 
 ## Problem Statement - TW
 
-[Describe the problem that your Chrome Extension will solve. What are the pain points that users experience? How does your extension address these pain points?]
-
 Our Chrome Extension solves the inconvenience, time-consuming nature, and accuracy concerns associated with manually converting currencies while browsing the internet. By seamlessly integrating into the browser, it provides real-time conversion rates, a user-friendly interface, and customization options for preferences. Users can now quickly and accurately convert currencies without leaving their current webpage, significantly enhancing their browsing experience.
 
 ## Target Audience - YY
-
-[Identify the target audience for your Chrome Extension. Who will benefit from using your extension? What are the main characteristics of your target audience?]
 
 The target audience for our Chrome Extension includes:
 
@@ -27,8 +23,6 @@ The target audience for our Chrome Extension includes:
 
 
 ## Description - TW
-
-[Provide a general description of your Chrome Extension idea in 2-3 sentences. Explain the main purpose and functionality of the extension.]
 
 Our Chrome Extension is a convenient currency converter that seamlessly integrates into your browsing experience. With real-time conversion rates and a user-friendly interface, it allows users to quickly and accurately convert currencies without leaving their current webpage. Whether you're shopping online, planning a trip, or conducting business transactions, our extension streamlines the currency conversion process, enhancing your browsing experience significantly.
 
@@ -104,10 +98,6 @@ Users will interact with the extension primarily by inputting the source currenc
 
 ### API, Libraries, and Frameworks - YY
 
-_[- List any APIs, libraries, or frameworks that you plan to use in your Chrome Extension.]_
-_[- Include links to the documentation or other relevant resources.]_
-_[- Explain very briefly how you will use these tools in your project, one sentence per item.]_
-
 For this Chrome Extension, we plan to use the Google Finance API to obtain currency ratios on specific dates.
 
 Google Finance API: Documentation, Yahoo Finance API
@@ -122,13 +112,11 @@ We may need to store the last used currencies involved in conversion for ease of
 
 ### Collaboration and Task Allocation
 
-_[Select a Leader, who will make final decisions on the vision of the project; and a Manager, who will oversee the project management and ensure all team members have everything they need to contribute effectively. List the remaining team members and their roles.]_
-
 - **Leader:** Tianyi Wu
 - **Manager:** Akanksha Tripathy
 - **Remaining Team Members:** Yola Yan, Ruth Tilahun
 
-_[Provide a brief overview of what each team member will work on. How will you collaborate on this project? What tools or platforms will you use to communicate and share code?]_
+We will use a combination of Git and Slack for our communication and to collaborate on this project.
 
 ### Risks and Mitigation - RT
 
@@ -148,9 +136,7 @@ If things don't go as expected, the contingency plan may involve:
   
 ### Milestones and Timeline
 
-_[You have about four weeks to work on this project. During the project management, you will use an Agile methodology to manage your tasks. For now, provide your best estimate of the work done each week, from Week 1 to Week 4.]_
-
-_[- Week 1: user interface design draft, research on other similar converters
+- Week 1: user interface design draft, research on other similar converters
 - Week 2: Web scrapping for a couple of websites
 - Week 3: API integration for exchange 
-- Week 4: combination and testing ]_
+- Week 4: combination and testing 
