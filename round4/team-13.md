@@ -55,3 +55,94 @@ TypeMaster is a portable writing assistant that provides word counter, writing a
 ## References & Inspiration
 
 Grammarly
+
+## Technical Details
+
+### User Interface
+
+Main interface components would include:
+- Popup Window: After clicking the TypeMaster icon in the Chrome toolbar, users will see a compact, visually appealing popup window. This window displays the current word count of the highlighted text or the entire text field in focus. It will also include tabs for settings, writing goals, and feedback.
+
+- Context Menu Integration: After right-clicking on any selected text within Chrome, users can access TypeMaster's features directly from the context menu. Options like "Analyze Word Count," "Set Goal," and "Get Writing Feedback'' will be accessible.
+
+- Goal Tracking Visualization: Users can set word count goals for their projects. A progress bar in the popup window will visually show how close they are to reaching these goals, changing color from red to green as they progress.
+
+- Real-time Feedback Alerts: As users type, small, notifications or visual cues can appear on the edge of the browser window, providing instant feedback or encouragement when they reach certain milestones or if the AI detects areas for improvement in clarity or tone.
+
+- Settings and Customization Panel: Within the popup, a settings tab allows users to customize their TypeMaster experience, adjusting preferences for notifications, feedback sensitivity, and which types of analytics they find most useful.
+
+
+
+### API, Libraries, and Frameworks
+
+_[- List any APIs, libraries, or frameworks that you plan to use in your Chrome Extension.]_
+OpenAI API
+_[- Include links to the documentation or other relevant resources.]_
+the Snippet Collector: https://github.com/jlumbroso/chrome-extension-text-collector 
+the QuicklyGPT extension: https://github.com/zealotjin/quicklygpt-extension/ 
+_[- Explain very briefly how you will use these tools in your project, one sentence per item.]_
+OpenAI API will be used for semantic analysis and feedback for user highlighted text.
+Snippet Collector provides an example of a built Chrome Extension as well as highlight detection and making extension available in context menu.
+QuicklyGPT provides example of extension working with ChatGPT.
+
+### Data Storage
+
+Data to be stored
+ All data should be stored locally - we don’t want to hold any API keys, key-logs, et.
+
+## Project Management
+
+### Collaboration and Task Allocation
+
+_[Select a Leader, who will make final decisions on the vision of the project; and a Manager, who will oversee the project management and ensure all team members have everything they need to contribute effectively. List the remaining team members and their roles.]_
+
+- **Leader:** James Huang
+- **Manager:** Tiffany Lian
+- **Remaining Team Members:** [Alexander Dempsey, Sanya Shetty]
+
+_[Provide a brief overview of what each team member will work on. How will you collaborate on this project? Will you use to communicate and share code?]
+
+Responsibilities:
+James Huang
+OpenAI API Integration
+Frontend, UI/UX Figma 
+Tiffany Lian
+Highlighting Mechanics
+QA: Testing/Debugging
+Sanya Shetty
+React
+Graphic Design 
+Alexander Dempsey
+QA: Testing/Debugging
+Deployment and Packaging
+
+Tools and Platforms
+	Github
+	Figma
+	OpenAI/HuggingFace
+
+### Risks and Mitigation
+
+_[Identify potential risks that could affect the development of your Chrome Extension. How will you mitigate these risks? What is your contingency plan if things don't go as expected?]_
+
+Time
+Alex is in PER and James is in Penn Boxing Fight Night + has Spring Fling & other commitments to perform for his band – Get things done on TIME!
+Solution: reduce scope where needed
+Start simple → complex 
+Security 
+User trust in giving us their key data and OpenAI keys
+ Debugging 
+Less experience overall in Git and Google Chrome Extension frameworks, might need more time and help debugging 
+Solution: Ask TAs! Who wants to spend 17 hours on StackExchange…
+Solution: Steal word highlighter from plugin demonstrated in class
+Devil in the details
+How to take care of trivial words we don’t want to count (space bars, ?/./punctuation in general, do we want different modes of counting)
+Solution: testing and brainstorming! 
+Bonus Solution: Make it cute for E.C.
+
+### Milestones and Timeline
+
+_[- Week 1: Figma mockup, Take apart a chrome extension (to be able to build one), Assign Roles, research libraries to make chrome extension aesthetic]
+- Week 2: First Interactive Prototype, Reconvene on Features, Testing
+- Week 3: Second Interactive Prototype, First finalized draft, Testing
+- Week 4: Working on pull requests/comments, Packaging, Fixing up UI/UX, Medium post]_
