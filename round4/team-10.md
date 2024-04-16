@@ -209,3 +209,15 @@ Task 9: Privacy and Security Measures - Implement and test privacy controls and 
 Task 10: User Feedback Loop - Release a beta version to a small group of users or stakeholders, gather feedback, and make necessary adjustments.
 Task 11: Final Testing and Bug Fixing - Address any issues identified during the beta phase, perform final testing including performance, security, and usability tests.
 Task 12: Launch Preparation and Documentation - Finalize all documentation, prepare launch materials, and submit the extension to the Chrome Web Store.
+
+### Minimum Viable Product (MVP)
+Collect "all-time" tab usage statistics: (1) how long a tab was "open" (in the foreground or background) and (2) how long a tab was "active" in the foreground. 
+
+In the pop-up view of the extension, display these statistics for the currently open tabs in the window. The pop-up should be a list of tabs open, with each tab accompanied by two basic statistics: (1) time this tab was spent "opened" and (2) time this tab was spent "active" in the foreground. Each tab will also be accompanied by a bargraph, where the x axis spans the time the tab was open and peaks in the chart represent times the tab was in the foreground. 
+
+The extension can be expanded into a dedicated page that shows the entire dashboard. The dashboard extends the functionality displayed in the popup by allowing the user to also filter by time ranges. This is done in the backend by simply filtering on the database by timestamp. 
+
+### Stretch Goals
+- Allow the user to close tabs in the pop-up window and dashboard
+- Bucketing tabs by category
+ 
